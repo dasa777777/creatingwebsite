@@ -9,7 +9,7 @@ class db_connect
     public $conn;
     function __construct()
     {
-        $this->conn = mysqli_connect('localhost', 'root', '', 'tutorial');
+        $this->conn = mysqli_connect('localhost', 'root', '', 'creatingwebsite');
     }
     //& pred premennou znamena, ze ide o pointer, cize premenna sa do funkcie poda systemom byRef a nie byVal
     //ked funkciu volam, tak sa vytvori premenna $result, ktora je prazdna. sem si ju podam a 
