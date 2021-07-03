@@ -1,12 +1,4 @@
-body,
-html {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	height: 100%;
-	display: grid;
-	width: 100%;
+body {
   background-color:lightblue;
 
 }
