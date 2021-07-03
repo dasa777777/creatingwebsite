@@ -7,9 +7,19 @@ html {
 	height: 100%;
 	display: grid;
 	width: 100%;
-	color: lightblue;
+  background-color:lightblue;
+
 }
-button{
-	width:20px;
-	color: yellow;
+button, .button {
+  width: fit-content;
+  background-color: #4CAF50;
+  border: solid black 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25%;
 }
